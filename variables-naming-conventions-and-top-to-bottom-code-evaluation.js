@@ -24,9 +24,12 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let userName = "Alice";
+let itemQuantity = 5;
+let itemPrice = 20;
+let shoppingDate = "Monday";
+let last4ofCard = 6574;
 
-console.log(d);
+let $overall = "On " + shoppingDate + ", " + userName + " bought " + itemQuantity + " items for $" + itemPrice + " with her credit card ending in " + last4ofCard + ".";
+
+console.log($overall);
